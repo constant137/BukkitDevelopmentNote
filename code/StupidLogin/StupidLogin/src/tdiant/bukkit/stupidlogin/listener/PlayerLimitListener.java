@@ -14,7 +14,7 @@ public class PlayerLimitListener implements Listener {
 	
 	@EventHandler
 	public void onPlayerChat(PlayerChatEvent e) {
-		if(e.getMessage().substring(0, 0).equals("/"))
+		if(e.getMessage().substring(0, 1).equals("/"))
 			return;
 		e.setCancelled(needCancelled(e.getPlayer().getName()));
 	}

@@ -139,7 +139,7 @@ public class PlayerLimitListener implements Listener {
 	
 	@EventHandler
 	public void onPlayerChat(PlayerChatEvent e) { //不让聊天
-		if(e.getMessage().substring(0, 0).equals("/")) //这里不拦截玩家用命令, 后面我们会处理一下限制玩家用命令
+		if(e.getMessage().substring(0, 1).equals("/")) //这里不拦截玩家用命令, 后面我们会处理一下限制玩家用命令
 			return;
 		e.setCancelled(needCancelled(e.getPlayer().getName()));
 	}
