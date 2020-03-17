@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:brm-1-4.md
 # 认识配置文件
 
 > 最开始的版本被吐槽太复杂啰嗦, 因此所以这一章的内容被重新改写.  
@@ -116,8 +115,8 @@ public class HelloWorld extends JavaPlugin implements Listener{
 }
 ```
 
-这里想说明, 如果你用`getConfig().getString(key)`获取玩家数据`Score`键的值, 那么获取到的就是一个String字符串.  
-也就是, 一个键对应的值是什么数据类型, 完全取决于你用的getter是什么.  
+如果你用`getConfig().getString(key)`获取玩家数据`Score`键的值, 那么获取到的就是一个String字符串.  
+也就是, YAML中值对应的数据类型具体是什么, 关键要看你用的getter是什么.  
 
 ## 写入数据到config.yml
 

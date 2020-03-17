@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:brm-1-3.md
 # 对象化的MC
 
 Java是一个面向对象的语言. 俗话说得好, Java里万物皆对象.  

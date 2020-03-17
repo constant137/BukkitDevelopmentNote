@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:brm-1-1.md
 # 最简单的插件
 
 # Bukkit插件的本质
