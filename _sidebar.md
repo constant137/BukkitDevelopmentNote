@@ -9,7 +9,7 @@
     - [第五节 命令执行器](brm/brm-1-5.md)
     - [第六节 简单的插件制作实例](brm/brm-1-6.md)
   - 第二单元 进阶功能
-    - 第一节 Bukkit类与箱子GUI的实现(未完成)
+    - [第一节 Bukkit类与箱子GUI的实现](brm/brm-2-1.md)
     - [第二节 自定义事件](brm/brm-2-2.md)
     - [第三节 深入plugin.yml](brm/brm-2-3.md)
     - [第四节 配置API的序列化和遍历](brm/brm-2-4.md)
